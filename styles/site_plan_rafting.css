@@ -1,8 +1,7 @@
-
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -57,7 +56,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
@@ -65,7 +64,7 @@ header > h1, header > h2 {
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  color: var(--paragraph-color);
   padding: 1em;
 }
 .colors {
@@ -163,13 +162,3 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-.th1 {
-  background-color:#396E94;
-
-}
-.th2 {
-  background-color:#E7C24F;
-}
-.th3 {
-  background-color:#A42212;
-}  
